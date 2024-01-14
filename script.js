@@ -36,3 +36,43 @@
 
 
 //<==================> 4-masala <==================>
+
+// let person = {
+//  name: "Sardor",
+//  age: 25
+// }
+
+// let {name, age} = person;
+
+// console.log(name, age);
+
+//<==================> 5-masala <==================>
+
+// let car ={
+//   id:1,
+//   name: "Bugatte",
+//   year: 2023,
+//   color: "Blue",
+//   weight: 2700,
+//   engine: 5.7
+// }
+
+// let {name, color, id:num = 10, weight = 3000, ...qolgani} =car;
+
+// console.log(name, color, qolgani);
+
+//<==================> 6-masala <==================>
+
+// let arrObject = [
+//   { id: 1, name: 'Farhod', age: 23 },
+//   { id: 2, name: 'Nargiza', age: 35 },
+//   { id: 3, name: 'Begzod', age: 42 }
+// ];
+
+// let newArr = arrObject.map(({ id, name }) => ({ id, name }));
+
+// console.log(newArr);
+
+
+//<==================> 7-masala <==================>
+// I don't understand this task!
