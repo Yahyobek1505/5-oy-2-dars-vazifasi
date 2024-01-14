@@ -1,29 +1,38 @@
-// import {kop as jami}   from "./function.js";
+//<==================> 1-masala <==================>
 
-// console.log(jami(10, 5));
+// let arr = ["Jasur", "Laziz"]
+
+// let [a, b] =arr;
+
+// console.log(a, b);
+
+//<==================> 2-masala <==================>
+
+// let array1 = [1, 2, 3, 4, 5];
+// let array2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// function ortaElement(arr) {
+//   let  ortaIndex = Math.floor(arr.length / 2);
+
+//   if (arr.length % 2 === 0) {
+//     let [middleElement1, middleElement2] = arr.slice(ortaIndex - 1, ortaIndex + 1);
+//     return [middleElement1, middleElement2];
+//   } else {
+//     let [middleElement] = arr.slice(ortaIndex, ortaIndex + 1);
+//     return [middleElement];
+//   }
+// }
+
+// console.log(ortaElement(array1)); 
+
+// console.log(ortaElement(array2)); 
+
+//<==================> 3-masala <==================>
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let [first, second, ...qolgani] = arr;
+
+// console.log(first, second, qolgani);
 
 
-// let arr = [ "Odil", "Hamid", "Muslim", "Jamshid", "Asror"]
-
-// let car = {
-//   id: 2,
-//   name: "Damas",
-//   year: 2023,
-//   color: "oq", 
-//   type: "chevro",
-//   weight: 2000
-// };
-
-// let {type, color, id: num = 40, year: yosh = 2030, ...res} = car
-
-// console.log(num);
-
-
-// let salom = document.getElementById ("h");
-
-// salom.innerHTML = `Bye`;
-
-const text = document.getElementsByTagName ('p');
-const text2 = document.querySelectorAll ('p');
-
-console.log(text2);
+//<==================> 4-masala <==================>
